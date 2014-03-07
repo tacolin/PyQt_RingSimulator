@@ -1,7 +1,7 @@
-#Window1 { top:34em;left:5em; }
-#Window2 { top:7em; left:36em; }
-#Window3 { top:27em;left:48em; }
-#Window4 { top:23em; left:22em; }
+#win1 { top:34em;left:5em; }
+#win2 { top:7em; left:36em; }
+#win3 { top:27em;left:48em; }
+#win4 { top:23em; left:22em; }
 
 .flowchart .window { 
     border:1px solid #346789;

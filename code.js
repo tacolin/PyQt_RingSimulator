@@ -104,10 +104,10 @@ jsPlumb.ready(function() {
     // suspend drawing and initialise.
     instance.doWhileSuspended(function() {
 
-        _addEndpoints("Window4", ["TopCenter", "BottomCenter"], ["LeftMiddle", "RightMiddle"]);			
-        _addEndpoints("Window2", ["LeftMiddle", "BottomCenter"], ["TopCenter", "RightMiddle"]);
-        _addEndpoints("Window3", ["RightMiddle", "BottomCenter"], ["LeftMiddle", "TopCenter"]);
-        _addEndpoints("Window1", ["LeftMiddle", "RightMiddle"], ["TopCenter", "BottomCenter"]);
+        _addEndpoints("win4", ["TopCenter", "BottomCenter"], ["LeftMiddle", "RightMiddle"]);			
+        _addEndpoints("win2", ["LeftMiddle", "BottomCenter"], ["TopCenter", "RightMiddle"]);
+        _addEndpoints("win3", ["RightMiddle", "BottomCenter"], ["LeftMiddle", "TopCenter"]);
+        _addEndpoints("win1", ["LeftMiddle", "RightMiddle"], ["TopCenter", "BottomCenter"]);
 
         // listen for new connections; initialise them the same way we initialise the connections at startup.
         instance.bind("connection", function(connInfo, originalEvent) { 
